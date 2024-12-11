@@ -2,7 +2,7 @@ import logging
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
 from apscheduler.schedulers.background import BackgroundScheduler
-
+import os  
 # Ваш токен бота
 TOKEN = os.getenv('TOKEN')
 
