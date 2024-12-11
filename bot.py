@@ -3,7 +3,7 @@ import os
 from telegram import Update
 from telegram.ext import Application, CommandHandler, CallbackContext
 from apscheduler.schedulers.background import BackgroundScheduler
-from dotenv import load_dotenv  # Для локального тестирования
+
 
 # Загрузить переменные из .env файла
 load_dotenv()
