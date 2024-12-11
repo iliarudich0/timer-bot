@@ -4,10 +4,6 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, CallbackContext
 from apscheduler.schedulers.background import BackgroundScheduler
 
-
-# Загрузить переменные из .env файла
-load_dotenv()
-
 # Получить токен из переменной окружения
 TOKEN = os.getenv('TOKEN')
 
